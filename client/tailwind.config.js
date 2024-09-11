@@ -19,6 +19,10 @@ export default {
         sans: ["Open Sans", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
+      gridTemplateRows: {
+        layout: "auto 1fr auto",
+        threefr: "1fr 1fr 1fr",
+      },
     },
   },
   plugins: [],

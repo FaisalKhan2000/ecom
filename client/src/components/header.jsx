@@ -11,12 +11,12 @@ const Navbar = () => {
         <div className="flex justify-between min-h-[100px]">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <a
+            <Link
               to={"/"}
               className="text-2xl font-bold text-black uppercase tracking-widest"
             >
               EShop
-            </a>
+            </Link>
           </div>
 
           {/* Desktop Menu */}
