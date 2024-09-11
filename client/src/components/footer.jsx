@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       {/* get the latest updates */}
 
-      <div className="bg-light  ">
+      <div className="bg-light  font-montserrat">
         <div className="flex flex-col md:flex-row justify-center items-center align-middle gap-4 max-w-7xl mx-auto min-h-[152px]">
           <h2 className="text-black uppercase text-xl font-medium">
             get the latest updates
