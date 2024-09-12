@@ -23,6 +23,10 @@ export default {
         layout: "auto 1fr auto",
         threefr: "1fr 1fr 1fr",
       },
+      backgroundImage: {
+        "hero-image1":
+          "url('https://deothemes.com/envato/zenna/html/img/hero/1.jpg')",
+      },
     },
   },
   plugins: [],

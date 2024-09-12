@@ -1,6 +1,6 @@
+import { Facebook, Instagram, Twitter } from "lucide-react";
 import { Link } from "react-router-dom";
-import { Instagram, Facebook, Twitter } from "lucide-react";
-import { BtnPrimary, BtnSecondary, BtnWhite } from "./btn";
+import { BtnPrimary } from "./btn";
 
 const Footer = () => {
   return (
