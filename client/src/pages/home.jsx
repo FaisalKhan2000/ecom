@@ -1,7 +1,11 @@
+import { useState } from "react";
 import { BtnSecondary, BtnWhite } from "../components/btn";
 import CategoryCard from "../components/category-card";
 
+import ProductCard from "../components/product-card";
+
 const Home = () => {
+  const [hover, setHover] = useState(false);
   return (
     <>
       <section className="bg-center bg-no-repeat bg-cover bg-hero-image1">
@@ -21,7 +25,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="container flex flex-col items-center justify-center w-full gap-10 mx-auto my-10 md:flex-row row">
+      <section className="flex flex-col items-center justify-center w-full gap-10 px-4 mx-auto my-10 sm:px-6 lg:px-8 max-w-7xl md:flex-row row">
         <CategoryCard className="relative cursor-pointer">
           <img
             className="absolute top-0 left-0 object-cover w-full h-full transition-transform duration-500 hover:scale-125"
@@ -57,6 +61,49 @@ const Home = () => {
           </h2>
           <p className="z-20 text-xl text-white capitalize">new collection</p>
         </CategoryCard>
+      </section>
+
+      <section className="grid w-full grid-cols-4 gap-5 px-4 mx-auto my-10 max-w-7xl sm:px-6 lg:px-8 md:flex-row">
+        {/* <div
+          className={`h-[350px] w-[250px]  relative overflow-hidden ${
+            hover ? "bg-black" : ""
+          }`}
+          onMouseEnter={() => setHover(true)}
+          onMouseLeave={() => setHover(false)}
+        >
+          <img
+            className={`absolute w-full h-full object-cover transition-all duration-300 ease-in-out ${
+              hover ? "opacity-50" : "opacity-100"
+            }`}
+            src="https://deothemes.com/envato/zenna/html/img/shop/shop_item_1.jpg"
+            alt="Product"
+          />
+          {hover && (
+            <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-4 text-white">
+              <Heart
+                // stroke="red"
+                // fill="red"
+                size={15}
+                className="absolute cursor-pointer right-2 top-2"
+              />
+              <p className="text-sm capitalize">women</p>
+              <h4 className="text-xl font-semibold capitalize ">
+                Drawstring dress
+              </h4>
+              <p className="text-sm capitalize">$399.99</p>
+              <BtnSecondary className="font-montserrat">quickview</BtnSecondary>
+            </div>
+          )}
+        </div> */}
+
+        <ProductCard hover={hover} setHover={setHover} />
+        <ProductCard hover={hover} setHover={setHover} />
+        <ProductCard hover={hover} setHover={setHover} />
+        <ProductCard hover={hover} setHover={setHover} />
+        <ProductCard hover={hover} setHover={setHover} />
+        <ProductCard hover={hover} setHover={setHover} />
+        <ProductCard hover={hover} setHover={setHover} />
+        <ProductCard hover={hover} setHover={setHover} />
       </section>
     </>
   );
