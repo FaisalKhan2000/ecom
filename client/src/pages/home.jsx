@@ -66,32 +66,38 @@ const Home = () => {
 
       {/* products */}
 
-      <section className="flex flex-wrap justify-center gap-5 px-4 mx-auto my-10 max-w-7xl sm:px-6 lg:px-8">
-        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-          <ProductCard />
-        </div>
-        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-          <ProductCard />
-        </div>
-        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-          <ProductCard />
-        </div>
-        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-          <ProductCard />
-        </div>
-        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-          <ProductCard />
-        </div>
-        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-          <ProductCard />
-        </div>
-        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-          <ProductCard />
-        </div>
-        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-          <ProductCard />
-        </div>
+      <section className="grid grid-cols-2 gap-5 px-4 mx-auto my-10 md:grid-cols-3 lg:grid-cols-4 max-w-7xl sm:px-6 lg:px-8">
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
       </section>
+      {/* <section className="flex flex-wrap justify-center gap-5 px-4 mx-auto my-10 max-w-7xl sm:px-6 lg:px-8">
+        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+          <ProductCard />
+        </div>
+        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+          <ProductCard />
+        </div>
+        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+          <ProductCard />
+        </div>
+        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+          <ProductCard />
+        </div>
+        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+          <ProductCard />
+        </div>
+        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+          <ProductCard />
+        </div>
+        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+          <ProductCard />
+        </div>
+        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+          <ProductCard />
+        </div>
+      </section> */}
     </>
   );
 };

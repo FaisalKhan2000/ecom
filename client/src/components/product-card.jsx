@@ -7,14 +7,14 @@ const ProductCard = ({ product }) => {
 
   return (
     <div
-      className={`relative overflow-hidden transition-colors duration-300 ${
+      className={`relative overflow-hidden transition-colors duration ${
         hover ? "bg-black" : "bg-white"
       }`}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
       <img
-        className={`w-full h-[350px] object-cover transition-opacity duration-300 ${
+        className={`w-full h-full object-cover transition-opacity duration-300 ${
           hover ? "opacity-50" : "opacity-100"
         }`}
         src="https://deothemes.com/envato/zenna/html/img/shop/shop_item_1.jpg"
