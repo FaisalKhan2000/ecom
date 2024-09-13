@@ -24,7 +24,7 @@ const Home = () => {
       <section className="container flex items-center justify-center w-full gap-10 mx-auto my-10 row">
         <CategoryCard className="relative cursor-pointer">
           <img
-            className="absolute top-0 left-0 object-cover w-full h-full transition-transform duration-500 hover:scale-110"
+            className="absolute top-0 left-0 object-cover w-full h-full transition-transform duration-500 hover:scale-125"
             src="https://deothemes.com/envato/zenna/html/img/shop/collection_1.jpg"
             alt="for her"
           />
@@ -37,29 +37,25 @@ const Home = () => {
         </CategoryCard>
         <CategoryCard className="relative cursor-pointer">
           <img
-            className="absolute top-0 left-0 object-cover w-full h-full transition-transform duration-500 hover:scale-110"
-            src="https://deothemes.com/envato/zenna/html/img/shop/collection_1.jpg"
+            className="absolute top-0 left-0 object-cover w-full h-full transition-transform duration-500 hover:scale-125"
+            src="https://deothemes.com/envato/zenna/html/img/shop/collection_2.jpg"
             alt="for her"
           />
           <h2 className="z-20 text-2xl font-bold text-white uppercase ">
-            for her
+            accessories
           </h2>
-          <p className="z-20 text-xl text-white capitalize">
-            Best Selling Deals
-          </p>
+          <p className="z-20 text-xl text-white capitalize">hot trends</p>
         </CategoryCard>
         <CategoryCard className="relative cursor-pointer">
           <img
-            className="absolute top-0 left-0 object-cover w-full h-full transition-transform duration-500 hover:scale-110"
-            src="https://deothemes.com/envato/zenna/html/img/shop/collection_1.jpg"
+            className="absolute top-0 left-0 object-cover w-full h-full transition-transform duration-500 hover:scale-125"
+            src="https://deothemes.com/envato/zenna/html/img/shop/collection_3.jpg"
             alt="for her"
           />
           <h2 className="z-20 text-2xl font-bold text-white uppercase ">
-            for her
+            for him
           </h2>
-          <p className="z-20 text-xl text-white capitalize">
-            Best Selling Deals
-          </p>
+          <p className="z-20 text-xl text-white capitalize">new collection</p>
         </CategoryCard>
       </section>
     </>
