@@ -4,7 +4,7 @@ import Footer from "../components/footer";
 
 const Layout = () => {
   return (
-    <div className="grid min-h-screen grid-rows-layout">
+    <div className="box-border">
       <Header />
       <main>
         <Outlet />
