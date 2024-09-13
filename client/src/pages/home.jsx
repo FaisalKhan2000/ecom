@@ -12,10 +12,10 @@ const Home = () => {
         {/* hero section */}
 
         <div className="flex flex-col items-center justify-center w-screen min-h-screen gap-5 ">
-          <h2 className="text-4xl font-semibold text-white capitalize text: md:text-6xl lg:text-7xl font-montserrat">
+          <h2 className="px-2 text-4xl font-semibold text-center text-white capitalize text: md:text-6xl lg:text-7xl font-montserrat">
             exclusive products
           </h2>
-          <p className="text-[1.2rem] text-white capitalize">
+          <p className="text-[1.2rem] text-white capitalize px-2 text-center">
             get awesome items only in zenna online shop
           </p>
           <div className="flex gap-3">
