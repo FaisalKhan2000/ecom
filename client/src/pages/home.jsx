@@ -21,7 +21,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="container flex items-center justify-center w-full gap-10 mx-auto my-10 row">
+      <section className="container flex flex-col items-center justify-center w-full gap-10 mx-auto my-10 md:flex-row row">
         <CategoryCard className="relative cursor-pointer">
           <img
             className="absolute top-0 left-0 object-cover w-full h-full transition-transform duration-500 hover:scale-125"
