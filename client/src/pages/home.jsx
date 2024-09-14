@@ -71,6 +71,10 @@ const Home = () => {
         <ProductCard />
         <ProductCard />
         <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
       </section>
       {/* <section className="flex flex-wrap justify-center gap-5 px-4 mx-auto my-10 max-w-7xl sm:px-6 lg:px-8">
         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
