@@ -20,7 +20,6 @@ const Home = () => {
           </p>
           <div className="flex gap-3">
             <BtnSecondary>buy it now</BtnSecondary>
-            <BtnWhite>learn more</BtnWhite>
           </div>
         </div>
       </section>
