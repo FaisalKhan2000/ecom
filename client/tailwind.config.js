@@ -26,6 +26,8 @@ export default {
       backgroundImage: {
         "hero-image1":
           "url('https://deothemes.com/envato/zenna/html/img/hero/1.jpg')",
+        "clients-bg":
+          "url('https://images.pexels.com/photos/206557/pexels-photo-206557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
       },
     },
   },
