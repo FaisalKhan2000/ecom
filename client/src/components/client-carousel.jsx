@@ -36,7 +36,7 @@ const ClientCarousel = () => {
         >
           <SwiperSlide className="flex items-center justify-center text-white">
             <div>
-              <p className="text-lg">
+              <p className="px-3 text-lg text-center">
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
               </p>
               <p className="mt-5 text-sm font-thin text-center">
@@ -46,7 +46,7 @@ const ClientCarousel = () => {
           </SwiperSlide>
           <SwiperSlide className="flex items-center justify-center text-white">
             <div>
-              <p className="text-lg">
+              <p className="px-3 text-lg text-center">
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
               </p>
               <p className="mt-5 text-sm font-thin text-center">
@@ -56,7 +56,7 @@ const ClientCarousel = () => {
           </SwiperSlide>
           <SwiperSlide className="flex items-center justify-center text-white">
             <div>
-              <p className="text-lg">
+              <p className="px-3 text-lg text-center">
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
               </p>
               <p className="mt-5 text-sm font-thin text-center">
